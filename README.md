@@ -1,21 +1,29 @@
 leaderboard-nightwatch
 ======================
 
-Dead simple, rock-solid acceptance testing for Meteor.
+Dead simple, rock-solid acceptance testing for Meteor, using the [Nightwatch.js](http://nightwatchjs.org/);
 
 ####  Installation  
 
 ````sh
 # Should be as simple as cloning the repository...  
-git clone https://github.com/awatson1978/leaderboard-nightwatch.git
+terminal-a$ git clone https://github.com/awatson1978/leaderboard-nightwatch.git
 
 # run the leaderboard application
-sudo mrt
+terminal-a$ sudo mrt
 
-# and then, in the same way that we run 'meteor mongo'
-# we want to open up a new terminal, and run
-sudo ./run_nightwatch.sh
+# and then, in the same way that we run 'meteor mongo' in a separate terminal
+# while our application is already running, we want to open up a new terminal, and run
+terminal-b$ sudo ./run_nightwatch.sh
 
+# if you want to rerun the acceptance tests, be sure to reset the database
+terminal-a$ ctrl-a
+terminal-a$ sudo mrt reset
+terminal-a$ sudo mrt
+
+# with bigger test suites, you'll maybe want to inject values into the database
+# and launch your application against a test database
+terminal-a$ MONGO_URL=mongodb://127.0.0.1:27017 PORT=3000 node .meteor/local/build/main.js
 ````
 
 
@@ -78,6 +86,13 @@ For more information on syntax you can use, check out the [Nightwatch API](http:
   
     .end();
 ````
+
+####  Notes  
+
+First, check out the ``/private`` directory, where all nightwatch configuration files are located, and where selenium server is installed.  
+
+Second, check out the ``run_nightwatch.sh``, and how we're piggy-backing on Meteor's default bundling in the ``.meteor/local/build`` directory.  
+
 
 
 
