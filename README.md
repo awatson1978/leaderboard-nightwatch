@@ -99,7 +99,7 @@ First, check out the ``/private`` directory, where all nightwatch configuration 
 
 Second, check out the ``run_nightwatch.sh``, and how we're piggy-backing on Meteor's default bundling in the ``.meteor/local/build`` directory.  
 
-
+Third, check out the ``/private/nightwatch-output`` directory, where you can grab XML versions of the test results.
 
 
 Licensing
