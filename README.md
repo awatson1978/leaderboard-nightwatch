@@ -3,6 +3,11 @@ leaderboard-nightwatch
 
 Dead simple, rock-solid acceptance testing for Meteor, using [Nightwatch.js](http://nightwatchjs.org/);
 
+####  Requirements  
+
+  - Meteor
+  - Firefox
+
 ####  Installation  
 
 ````sh
