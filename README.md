@@ -74,7 +74,6 @@ For more information on syntax you can use, check out the [Nightwatch API](http:
     .verify.containsText('div.leaderboard div:nth-child(2) .name', 'Grace Hopper')
     .verify.containsText('div.leaderboard div:nth-child(2) .score', '50')
   
-  
     .click('input.inc')
     .verify.containsText('div.leaderboard div:nth-child(1) .name', 'Grace Hopper')
     .verify.containsText('div.leaderboard div:nth-child(1) .score', '55')
