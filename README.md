@@ -13,7 +13,8 @@ terminal-a$ git clone https://github.com/awatson1978/leaderboard-nightwatch.git
 terminal-a$ sudo mrt
 
 # and then, in the same way that we run 'meteor mongo' in a separate terminal
-# while our application is already running, we want to open up a new terminal, and run
+# while our application is already running,
+# we want to open up a new terminal, and run
 terminal-b$ sudo ./run_nightwatch.sh
 
 # if you want to rerun the acceptance tests, be sure to reset the database
