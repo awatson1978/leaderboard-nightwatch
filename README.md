@@ -1,7 +1,7 @@
 leaderboard-nightwatch
 ======================
 
-Dead simple, rock-solid acceptance testing for Meteor, using the [Nightwatch.js](http://nightwatchjs.org/);
+Dead simple, rock-solid acceptance testing for Meteor, using [Nightwatch.js](http://nightwatchjs.org/);
 
 ####  Installation  
 
