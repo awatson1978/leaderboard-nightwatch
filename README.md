@@ -17,7 +17,8 @@ terminal-a$ sudo mrt
 # we want to open up a new terminal, and run
 terminal-b$ sudo ./run_nightwatch.sh
 
-# if you want to rerun the acceptance tests, be sure to reset the database
+# if you want to rerun the acceptance tests, go back to the first terminal
+# and be sure to reset the database
 terminal-a$ ctrl-a
 terminal-a$ sudo mrt reset
 terminal-a$ sudo mrt
