@@ -6,4 +6,4 @@ echo "installing nightwatch in .meteor/local/build"
 
 echo "running nightwatch"
 #  sudo .meteor/local/build/node_modules/nightwatch/bin/nightwatch -c private/nightwatch.json -t tests/leaderboardTest.js
-   sudo .meteor/local/build/node_modules/nightwatch/bin/nightwatch -c private/nightwatch.json
+   sudo .meteor/local/build/node_modules/nightwatch/bin/nightwatch -c server/nightwatch.json
