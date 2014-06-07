@@ -10,9 +10,9 @@ Package.describe({
 });
 
 // If you're bundling an NPM package, be sure to reference the package as a dependency
-Npm.depends({
-  nightwatch: "0.5.3"
-});
+// Npm.depends({
+//   nightwatch: "0.5.3"
+// });
 
 Package.on_use(function (api) {
 
@@ -36,5 +36,5 @@ Package.on_use(function (api) {
   //api.add_files(['first_library.js', 'second_library.js'], 'client');
 
   // example: add file to multiple locations using an array
-  api.add_files('nightwatch.js', ['client', 'server']);
+  //api.add_files('nightwatch.js', ['server']);
 });

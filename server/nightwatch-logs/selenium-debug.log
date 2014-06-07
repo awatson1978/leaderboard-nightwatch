@@ -1,148 +1,148 @@
-Jun 7, 2014 3:18:29 PM org.openqa.grid.selenium.GridLauncher main
+Jun 7, 2014 3:36:53 PM org.openqa.grid.selenium.GridLauncher main
 INFO: Launching a standalone server
-Setting system property webdriver.chrome.driver to server/selenium/chromedriver
-15:18:29.470 INFO - Java: Apple Inc. 20.65-b04-462
-15:18:29.470 INFO - OS: Mac OS X 10.9.2 x86_64
-15:18:29.487 INFO - v2.42.0, with Core v2.42.0. Built from revision 5e82430
-15:18:29.570 INFO - Default driver org.openqa.selenium.ie.InternetExplorerDriver registration is skipped: registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match with current platform: MAC
-15:18:29.647 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-15:18:29.648 INFO - Version Jetty/5.1.x
-15:18:29.649 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
-15:18:29.650 INFO - Started HttpContext[/selenium-server,/selenium-server]
-15:18:29.650 INFO - Started HttpContext[/,/]
-15:18:29.691 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@1f25fefa
-15:18:29.691 INFO - Started HttpContext[/wd,/wd]
-15:18:29.697 INFO - Started SocketListener on 0.0.0.0:4444
-15:18:29.697 INFO - Started org.openqa.jetty.jetty.Server@7c4c51
-15:18:29.936 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, acceptSslCerts=true, browserName=firefox}]])
-15:18:29.968 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, acceptSslCerts=true, browserName=firefox}]
-15:18:33.438 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, acceptSslCerts=true, browserName=firefox}]]
-15:18:33.453 INFO - Executing: [get: http://localhost:3000])
-15:18:33.844 INFO - Done: [get: http://localhost:3000]
-15:18:33.852 INFO - Executing: [find element: By.selector: body])
-15:18:33.913 INFO - Done: [find element: By.selector: body]
-15:18:33.917 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: body]])
-15:18:33.932 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: body]]
-15:18:33.936 INFO - Executing: [find element: By.selector: div#outer])
-15:18:33.946 INFO - Done: [find element: By.selector: div#outer]
-15:18:33.949 INFO - Executing: [is displayed: 1 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div#outer]])
-15:18:33.959 INFO - Done: [is displayed: 1 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div#outer]]
-15:18:33.962 INFO - Executing: [find element: By.selector: div.leaderboard])
-15:18:33.970 INFO - Done: [find element: By.selector: div.leaderboard]
-15:18:33.973 INFO - Executing: [is displayed: 2 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard]])
-15:18:33.985 INFO - Done: [is displayed: 2 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard]]
-15:18:33.989 INFO - Executing: [find element: By.selector: .leaderboard .player])
-15:18:33.999 INFO - Done: [find element: By.selector: .leaderboard .player]
-15:18:34.002 INFO - Executing: [is displayed: 3 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: .leaderboard .player]])
-15:18:34.010 INFO - Done: [is displayed: 3 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: .leaderboard .player]]
-15:18:34.014 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(1) .name])
-15:18:34.021 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(1) .name]
-15:18:34.025 INFO - Executing: [get text: 4 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(1) .name]])
-15:18:34.033 INFO - Done: [get text: 4 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(1) .name]]
-15:18:34.037 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(1) .score])
-15:18:34.045 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(1) .score]
-15:18:34.048 INFO - Executing: [get text: 5 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(1) .score]])
-15:18:34.058 INFO - Done: [get text: 5 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(1) .score]]
-15:18:34.061 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(2) .name])
-15:18:34.070 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(2) .name]
-15:18:34.073 INFO - Executing: [get text: 6 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(2) .name]])
-15:18:34.083 INFO - Done: [get text: 6 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(2) .name]]
-15:18:34.087 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(2) .score])
-15:18:34.095 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(2) .score]
-15:18:34.098 INFO - Executing: [get text: 7 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(2) .score]])
-15:18:34.106 INFO - Done: [get text: 7 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(2) .score]]
-15:18:34.109 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(3) .name])
-15:18:34.118 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(3) .name]
-15:18:34.121 INFO - Executing: [get text: 8 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(3) .name]])
-15:18:34.129 INFO - Done: [get text: 8 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(3) .name]]
-15:18:34.132 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(3) .score])
-15:18:34.138 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(3) .score]
-15:18:34.140 INFO - Executing: [get text: 9 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(3) .score]])
-15:18:34.151 INFO - Done: [get text: 9 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(3) .score]]
-15:18:34.153 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(4) .name])
-15:18:34.161 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(4) .name]
-15:18:34.165 INFO - Executing: [get text: 10 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(4) .name]])
-15:18:34.174 INFO - Done: [get text: 10 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(4) .name]]
-15:18:34.192 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(4) .score])
-15:18:34.199 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(4) .score]
-15:18:34.201 INFO - Executing: [get text: 11 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(4) .score]])
-15:18:34.209 INFO - Done: [get text: 11 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(4) .score]]
-15:18:34.212 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(5) .name])
-15:18:34.221 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(5) .name]
-15:18:34.224 INFO - Executing: [get text: 12 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(5) .name]])
-15:18:34.234 INFO - Done: [get text: 12 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(5) .name]]
-15:18:34.237 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(5) .score])
-15:18:34.246 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(5) .score]
-15:18:34.249 INFO - Executing: [get text: 13 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(5) .score]])
-15:18:34.260 INFO - Done: [get text: 13 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(5) .score]]
-15:18:34.263 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(6) .name])
-15:18:34.272 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(6) .name]
-15:18:34.275 INFO - Executing: [get text: 14 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(6) .name]])
-15:18:34.286 INFO - Done: [get text: 14 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(6) .name]]
-15:18:34.290 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(6) .score])
-15:18:34.297 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(6) .score]
-15:18:34.301 INFO - Executing: [get text: 15 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(6) .score]])
-15:18:34.308 INFO - Done: [get text: 15 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(6) .score]]
-15:18:34.311 INFO - Executing: [find element: By.selector: .none])
-15:18:34.318 INFO - Done: [find element: By.selector: .none]
-15:18:34.321 INFO - Executing: [get text: 16 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: .none]])
-15:18:34.329 INFO - Done: [get text: 16 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: .none]]
-15:18:34.333 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(2)])
-15:18:34.339 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(2)]
-15:18:34.342 INFO - Executing: [click: 17 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(2)]])
-15:18:34.404 INFO - Done: [click: 17 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(2)]]
-15:18:34.908 INFO - Executing: [find element: By.selector: input.inc])
-15:18:34.916 INFO - Done: [find element: By.selector: input.inc]
-15:18:34.919 INFO - Executing: [is displayed: 18 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: input.inc]])
-15:18:34.925 INFO - Done: [is displayed: 18 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: input.inc]]
-15:18:34.929 INFO - Executing: [find element: By.selector: input.inc])
-15:18:34.936 INFO - Done: [find element: By.selector: input.inc]
-15:18:34.938 INFO - Executing: [get element attribute: 18 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: input.inc], value])
-15:18:34.944 INFO - Done: [get element attribute: 18 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: input.inc], value]
-15:18:34.947 INFO - Executing: [find element: By.selector: input.inc])
-15:18:34.953 INFO - Done: [find element: By.selector: input.inc]
-15:18:34.956 INFO - Executing: [click: 18 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: input.inc]])
-15:18:35.017 INFO - Done: [click: 18 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: input.inc]]
-15:18:35.021 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(2) .name])
-15:18:35.028 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(2) .name]
-15:18:35.033 INFO - Executing: [get text: 6 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(2) .name]])
-15:18:35.041 INFO - Done: [get text: 6 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(2) .name]]
-15:18:35.044 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(2) .score])
-15:18:35.052 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(2) .score]
-15:18:35.055 INFO - Executing: [get text: 7 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(2) .score]])
-15:18:35.065 INFO - Done: [get text: 7 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(2) .score]]
-15:18:35.068 INFO - Executing: [find element: By.selector: input.inc])
-15:18:35.074 INFO - Done: [find element: By.selector: input.inc]
-15:18:35.076 INFO - Executing: [click: 18 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: input.inc]])
-15:18:35.139 INFO - Done: [click: 18 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: input.inc]]
-15:18:35.142 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(2) .name])
-15:18:35.149 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(2) .name]
-15:18:35.152 INFO - Executing: [get text: 6 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(2) .name]])
-15:18:35.159 INFO - Done: [get text: 6 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(2) .name]]
-15:18:35.163 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(2) .score])
-15:18:35.171 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(2) .score]
-15:18:35.174 INFO - Executing: [get text: 7 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(2) .score]])
-15:18:35.184 INFO - Done: [get text: 7 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(2) .score]]
-15:18:35.189 INFO - Executing: [find element: By.selector: input.inc])
-15:18:35.196 INFO - Done: [find element: By.selector: input.inc]
-15:18:35.199 INFO - Executing: [click: 18 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: input.inc]])
-15:18:35.262 INFO - Done: [click: 18 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: input.inc]]
-15:18:35.265 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(1) .name])
-15:18:35.271 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(1) .name]
-15:18:35.273 INFO - Executing: [get text: 6 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(2) .name]])
-15:18:35.280 INFO - Done: [get text: 6 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(2) .name]]
-15:18:35.282 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(1) .score])
-15:18:35.288 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(1) .score]
-15:18:35.290 INFO - Executing: [get text: 7 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(2) .score]])
-15:18:35.298 INFO - Done: [get text: 7 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(2) .score]]
-15:18:35.301 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(2) .name])
-15:18:35.307 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(2) .name]
-15:18:35.309 INFO - Executing: [get text: 4 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(1) .name]])
-15:18:35.318 INFO - Done: [get text: 4 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(1) .name]]
-15:18:35.321 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(2) .score])
-15:18:35.328 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(2) .score]
-15:18:35.331 INFO - Executing: [get text: 5 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(1) .score]])
-15:18:35.339 INFO - Done: [get text: 5 [[FirefoxDriver: firefox on MAC (cfefb49d-9ed8-e64e-af3a-cbd0d629a9e4)] -> css selector: div.leaderboard div:nth-child(1) .score]]
-15:18:35.342 INFO - Executing: [delete session: a5f638fa-55bf-48fd-91a8-6c9c6d6c57d4])
-15:18:35.430 INFO - Done: [delete session: a5f638fa-55bf-48fd-91a8-6c9c6d6c57d4]
-15:18:35.440 INFO - Shutting down...
+Setting system property webdriver.chrome.driver to selenium/chromedriver
+15:36:53.872 INFO - Java: Apple Inc. 20.65-b04-462
+15:36:53.872 INFO - OS: Mac OS X 10.9.2 x86_64
+15:36:53.881 INFO - v2.42.0, with Core v2.42.0. Built from revision 5e82430
+15:36:53.936 INFO - Default driver org.openqa.selenium.ie.InternetExplorerDriver registration is skipped: registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match with current platform: MAC
+15:36:53.982 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+15:36:53.983 INFO - Version Jetty/5.1.x
+15:36:53.983 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+15:36:53.984 INFO - Started HttpContext[/selenium-server,/selenium-server]
+15:36:53.984 INFO - Started HttpContext[/,/]
+15:36:54.021 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@7786df0f
+15:36:54.021 INFO - Started HttpContext[/wd,/wd]
+15:36:54.026 INFO - Started SocketListener on 0.0.0.0:4444
+15:36:54.026 INFO - Started org.openqa.jetty.jetty.Server@60765a16
+15:36:54.198 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, acceptSslCerts=true, browserName=firefox}]])
+15:36:54.208 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, acceptSslCerts=true, browserName=firefox}]
+15:36:56.353 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, acceptSslCerts=true, browserName=firefox}]]
+15:36:56.362 INFO - Executing: [get: http://localhost:3000])
+15:36:56.696 INFO - Done: [get: http://localhost:3000]
+15:36:56.716 INFO - Executing: [find element: By.selector: body])
+15:36:56.792 INFO - Done: [find element: By.selector: body]
+15:36:56.795 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: body]])
+15:36:56.805 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: body]]
+15:36:56.808 INFO - Executing: [find element: By.selector: div#outer])
+15:36:56.815 INFO - Done: [find element: By.selector: div#outer]
+15:36:56.818 INFO - Executing: [is displayed: 1 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div#outer]])
+15:36:56.827 INFO - Done: [is displayed: 1 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div#outer]]
+15:36:56.830 INFO - Executing: [find element: By.selector: div.leaderboard])
+15:36:56.838 INFO - Done: [find element: By.selector: div.leaderboard]
+15:36:56.840 INFO - Executing: [is displayed: 2 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard]])
+15:36:56.849 INFO - Done: [is displayed: 2 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard]]
+15:36:56.852 INFO - Executing: [find element: By.selector: .leaderboard .player])
+15:36:56.860 INFO - Done: [find element: By.selector: .leaderboard .player]
+15:36:56.863 INFO - Executing: [is displayed: 3 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: .leaderboard .player]])
+15:36:56.872 INFO - Done: [is displayed: 3 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: .leaderboard .player]]
+15:36:56.875 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(1) .name])
+15:36:56.881 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(1) .name]
+15:36:56.884 INFO - Executing: [get text: 4 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(1) .name]])
+15:36:56.896 INFO - Done: [get text: 4 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(1) .name]]
+15:36:56.899 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(1) .score])
+15:36:56.906 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(1) .score]
+15:36:56.908 INFO - Executing: [get text: 5 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(1) .score]])
+15:36:56.916 INFO - Done: [get text: 5 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(1) .score]]
+15:36:56.919 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(2) .name])
+15:36:56.926 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(2) .name]
+15:36:56.929 INFO - Executing: [get text: 6 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(2) .name]])
+15:36:56.940 INFO - Done: [get text: 6 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(2) .name]]
+15:36:56.944 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(2) .score])
+15:36:56.951 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(2) .score]
+15:36:56.953 INFO - Executing: [get text: 7 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(2) .score]])
+15:36:56.961 INFO - Done: [get text: 7 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(2) .score]]
+15:36:56.963 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(3) .name])
+15:36:56.971 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(3) .name]
+15:36:56.973 INFO - Executing: [get text: 8 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(3) .name]])
+15:36:56.981 INFO - Done: [get text: 8 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(3) .name]]
+15:36:56.984 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(3) .score])
+15:36:56.992 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(3) .score]
+15:36:56.994 INFO - Executing: [get text: 9 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(3) .score]])
+15:36:57.002 INFO - Done: [get text: 9 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(3) .score]]
+15:36:57.005 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(4) .name])
+15:36:57.012 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(4) .name]
+15:36:57.014 INFO - Executing: [get text: 10 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(4) .name]])
+15:36:57.023 INFO - Done: [get text: 10 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(4) .name]]
+15:36:57.026 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(4) .score])
+15:36:57.033 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(4) .score]
+15:36:57.035 INFO - Executing: [get text: 11 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(4) .score]])
+15:36:57.043 INFO - Done: [get text: 11 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(4) .score]]
+15:36:57.054 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(5) .name])
+15:36:57.061 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(5) .name]
+15:36:57.063 INFO - Executing: [get text: 12 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(5) .name]])
+15:36:57.071 INFO - Done: [get text: 12 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(5) .name]]
+15:36:57.074 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(5) .score])
+15:36:57.081 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(5) .score]
+15:36:57.083 INFO - Executing: [get text: 13 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(5) .score]])
+15:36:57.090 INFO - Done: [get text: 13 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(5) .score]]
+15:36:57.093 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(6) .name])
+15:36:57.099 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(6) .name]
+15:36:57.101 INFO - Executing: [get text: 14 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(6) .name]])
+15:36:57.109 INFO - Done: [get text: 14 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(6) .name]]
+15:36:57.113 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(6) .score])
+15:36:57.123 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(6) .score]
+15:36:57.125 INFO - Executing: [get text: 15 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(6) .score]])
+15:36:57.132 INFO - Done: [get text: 15 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(6) .score]]
+15:36:57.135 INFO - Executing: [find element: By.selector: .none])
+15:36:57.143 INFO - Done: [find element: By.selector: .none]
+15:36:57.145 INFO - Executing: [get text: 16 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: .none]])
+15:36:57.153 INFO - Done: [get text: 16 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: .none]]
+15:36:57.156 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(2)])
+15:36:57.167 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(2)]
+15:36:57.170 INFO - Executing: [click: 17 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(2)]])
+15:36:57.230 INFO - Done: [click: 17 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(2)]]
+15:36:57.734 INFO - Executing: [find element: By.selector: input.inc])
+15:36:57.740 INFO - Done: [find element: By.selector: input.inc]
+15:36:57.743 INFO - Executing: [is displayed: 18 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: input.inc]])
+15:36:57.750 INFO - Done: [is displayed: 18 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: input.inc]]
+15:36:57.753 INFO - Executing: [find element: By.selector: input.inc])
+15:36:57.761 INFO - Done: [find element: By.selector: input.inc]
+15:36:57.764 INFO - Executing: [get element attribute: 18 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: input.inc], value])
+15:36:57.772 INFO - Done: [get element attribute: 18 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: input.inc], value]
+15:36:57.775 INFO - Executing: [find element: By.selector: input.inc])
+15:36:57.781 INFO - Done: [find element: By.selector: input.inc]
+15:36:57.784 INFO - Executing: [click: 18 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: input.inc]])
+15:36:57.849 INFO - Done: [click: 18 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: input.inc]]
+15:36:57.852 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(2) .name])
+15:36:57.860 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(2) .name]
+15:36:57.864 INFO - Executing: [get text: 6 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(2) .name]])
+15:36:57.872 INFO - Done: [get text: 6 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(2) .name]]
+15:36:57.875 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(2) .score])
+15:36:57.883 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(2) .score]
+15:36:57.886 INFO - Executing: [get text: 7 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(2) .score]])
+15:36:57.894 INFO - Done: [get text: 7 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(2) .score]]
+15:36:57.897 INFO - Executing: [find element: By.selector: input.inc])
+15:36:57.906 INFO - Done: [find element: By.selector: input.inc]
+15:36:57.909 INFO - Executing: [click: 18 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: input.inc]])
+15:36:57.973 INFO - Done: [click: 18 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: input.inc]]
+15:36:57.978 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(2) .name])
+15:36:57.984 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(2) .name]
+15:36:57.987 INFO - Executing: [get text: 6 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(2) .name]])
+15:36:57.995 INFO - Done: [get text: 6 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(2) .name]]
+15:36:57.998 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(2) .score])
+15:36:58.004 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(2) .score]
+15:36:58.006 INFO - Executing: [get text: 7 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(2) .score]])
+15:36:58.014 INFO - Done: [get text: 7 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(2) .score]]
+15:36:58.018 INFO - Executing: [find element: By.selector: input.inc])
+15:36:58.025 INFO - Done: [find element: By.selector: input.inc]
+15:36:58.027 INFO - Executing: [click: 18 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: input.inc]])
+15:36:58.091 INFO - Done: [click: 18 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: input.inc]]
+15:36:58.094 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(1) .name])
+15:36:58.100 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(1) .name]
+15:36:58.103 INFO - Executing: [get text: 6 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(2) .name]])
+15:36:58.109 INFO - Done: [get text: 6 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(2) .name]]
+15:36:58.112 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(1) .score])
+15:36:58.119 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(1) .score]
+15:36:58.121 INFO - Executing: [get text: 7 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(2) .score]])
+15:36:58.128 INFO - Done: [get text: 7 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(2) .score]]
+15:36:58.131 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(2) .name])
+15:36:58.138 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(2) .name]
+15:36:58.140 INFO - Executing: [get text: 4 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(1) .name]])
+15:36:58.149 INFO - Done: [get text: 4 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(1) .name]]
+15:36:58.152 INFO - Executing: [find element: By.selector: div.leaderboard div:nth-child(2) .score])
+15:36:58.165 INFO - Done: [find element: By.selector: div.leaderboard div:nth-child(2) .score]
+15:36:58.167 INFO - Executing: [get text: 5 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(1) .score]])
+15:36:58.176 INFO - Done: [get text: 5 [[FirefoxDriver: firefox on MAC (7d275a27-f331-bf40-8795-16b38e1dbafc)] -> css selector: div.leaderboard div:nth-child(1) .score]]
+15:36:58.179 INFO - Executing: [delete session: 0cf434e4-776f-4730-920f-af0576f8157e])
+15:36:58.257 INFO - Done: [delete session: 0cf434e4-776f-4730-920f-af0576f8157e]
+15:36:58.266 INFO - Shutting down...

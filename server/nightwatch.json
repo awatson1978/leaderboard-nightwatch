@@ -1,18 +1,18 @@
 {
-  "src_folders" : ["tests"],
-  "output_folder" : "server/nightwatch-output",
-  "custom_commands_path" : "server/",
+  "src_folders" : ["../tests"],
+  "output_folder" : "nightwatch-output",
+  "custom_commands_path" : "",
   "custom_assertions_path" : "",
-  "globals_path" : "server/globals.json",
+  "globals_path" : "globals.json",
 
   "selenium" : {
     "start_process" : true,
-    "server_path" : "server/selenium/selenium-server-standalone-2.42.0.jar",
-    "log_path" : "server/nightwatch-logs",
+    "server_path" : "selenium/selenium-server-standalone-2.42.0.jar",
+    "log_path" : "nightwatch-logs",
     "host" : "127.0.0.1",
     "port" : 4444,
     "cli_args": {
-      "webdriver.chrome.driver": "server/selenium/chromedriver"
+      "webdriver.chrome.driver": "selenium/chromedriver"
     }
   },
 
