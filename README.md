@@ -8,11 +8,11 @@ Dead simple, rock-solid acceptance testing for Meteor, using [Nightwatch.js](htt
   - Meteor
   - Firefox
 
-####  Atmosphere
-Please note that [http://atmospherejs.com/package/selenium-nightwatch](selenium-nightwatch is now available on Atmosphere), and can be installed with a ``mrt add selenium-nightwatch``.
- 
-####  Manual Installation  
+####  Atmosphere & the Selenium-Nightwatch Package
+Please note that [http://atmospherejs.com/package/selenium-nightwatch](selenium-nightwatch is now available on Atmosphere), and can be installed with a ``mrt add selenium-nightwatch`` into your applications.  
 
+####  Installation of Leaderboard Example
+ 
 ````sh
 # Should be as simple as cloning the repository...  
 terminal-a$ git clone https://github.com/awatson1978/leaderboard-nightwatch.git
