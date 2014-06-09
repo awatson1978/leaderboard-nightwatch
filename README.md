@@ -8,7 +8,10 @@ Dead simple, rock-solid acceptance testing for Meteor, using [Nightwatch.js](htt
   - Meteor
   - Firefox
 
-####  Installation  
+####  Atmosphere
+Please note that [http://atmospherejs.com/package/selenium-nightwatch](selenium-nightwatch is now available on Atmosphere), and can be installed with a ``mrt add selenium-nightwatch``.
+ 
+####  Manual Installation  
 
 ````sh
 # Should be as simple as cloning the repository...  
