@@ -25,13 +25,13 @@ Meteor@0.9.2.2
 terminal-a$ git clone https://github.com/awatson1978/leaderboard-nightwatch.git
 
 # run the leaderboard application
+terminal-a$ cd leaderboard-nightwatch
 terminal-a$ meteor
 
 # and then, in the same way that we run 'meteor mongo' in a separate terminal
 # while our application is already running,
 # we want to open up a new terminal, and run
-terminal-b$ cd server
-terminal-b$ run_nightwatch.sh
+terminal-b$ ./run_nightwatch.sh
 
 # if you want to rerun the acceptance tests, go back to the first terminal
 # and be sure to reset the database
