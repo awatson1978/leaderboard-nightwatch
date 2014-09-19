@@ -6,4 +6,5 @@
 standard-app-packages
 insecure
 tinytest
-bootstrap-3
+clinical:nightwatch
+
